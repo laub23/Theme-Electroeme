@@ -19,7 +19,7 @@ get_header();
 
 
 			<div id="author-meta"> <?php echo get_avatar( get_the_author_id() , 210 ); ?>
-			<?php the_field("poete"); ?>
+			<strong><?php the_field("poete"); ?></strong>
 			 <?php the_author_posts_link(); ?>
 </div>
 
