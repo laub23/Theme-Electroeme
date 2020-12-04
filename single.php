@@ -1,5 +1,3 @@
-<h1>Poème</h1>
-
 <?php
 /**
  * Author:          Andrei Baicus <andrei@themeisle.com>
@@ -18,10 +16,6 @@ get_header();
 			<?php do_action( 'neve_do_sidebar', 'single-post', 'left' ); ?>
 
 
-			<div id="author-meta"> <?php echo get_avatar( get_the_author_id() , 210 ); ?>
-			<strong><?php the_field("poete"); ?></strong>
-			 <?php the_author_posts_link(); ?>
-</div>
 
 </div>
 
