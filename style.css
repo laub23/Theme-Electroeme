@@ -7,5 +7,60 @@ Template: neve
 Version: 0.1.0
 */
 
-@import"forum.css";
 
+
+.elementor *, 
+.elementor :after,
+ .elementor :before {
+    list-style: none;
+}
+
+.elementor-text-editor ul {
+    list-style: inherit;
+    background: white
+}
+
+li.ctdb-topic-table-item.ctdb-topic-table-topic>p>a {
+    color: #5F8286 ;
+	font-weight: 600;
+}
+
+.elementor-text-editor>p>a{
+	color:white;
+}
+
+a.login_button{
+	background-color:#789699;
+	border-radius:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:17px;
+	padding-right:17px;
+	color:white;
+}
+
+.hfe-nav-menu__layout-horizontal li.menu-item, .hfe-nav-menu__layout-horizontal > li.menu-item {
+  
+    padding-top: 11px;
+}
+
+
+ textarea.textareafield{
+	width:800px;
+	height:500px;
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5)
+}
+
+@media (max-width: 70em) {
+	textarea{
+		width:350px;
+		height: 400px;
+	}
+}
+
+@media (max-width: 20em) {
+	textarea{
+		width:250px;
+		height: 400px;
+	}
+}
