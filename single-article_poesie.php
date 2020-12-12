@@ -1,3 +1,4 @@
+
 <?php
 /**
  * Author:          Andrei Baicus <andrei@themeisle.com>
@@ -11,20 +12,16 @@ $container_class = apply_filters( 'neve_container_class_filter', 'container', 's
 get_header();
 
 ?>
+
+
 	<div class="<?php echo esc_attr( $container_class ); ?> single-post-container">
 		<div class="row">
 			<?php do_action( 'neve_do_sidebar', 'single-post', 'left' ); ?>
 
-			<div id="author-meta"> 
-				<?php 
-$image = get_field('profil');
-$size = 'thumbnail'; // (thumbnail, medium, large, full or custom size)
-if( $image ) {
-    echo wp_get_attachment_image( $image, $size );
-} ?>
 
-			<div class="author"><?php the_field("poete"); ?>
-			<div class="barre"></div></div>
+			<div id="author-meta"> <?php echo get_avatar( get_the_author_id() , 210 ); ?>
+			<strong><?php the_field("poete"); ?></strong>
+			 <?php the_author_posts_link(); ?>
 </div>
 
 </div>
