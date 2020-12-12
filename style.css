@@ -13,7 +13,7 @@ Version: 0.1.0
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 
-/*header bouton de déconnexion*/
+/*forum*/
 .elementor *, 
 .elementor :after,
  .elementor :before {
@@ -34,6 +34,7 @@ li.ctdb-topic-table-item.ctdb-topic-table-topic>p>a {
 	color:white;
 }
 
+/*header bouton de déconnexion*/
 a.login_button{
 	background-color:#789699;
 	border-radius:20px;
@@ -55,20 +56,22 @@ a.login_button{
  textarea.textareafield{
 	width:800px;
 	height:500px;
-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5)
+box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+
+
 }
 
 @media (max-width: 70em) {
 	textarea.textareafield{
-		width:350px;
-		height: 400px;
+		width:450px;
+		height: 500px;
 	}
 }
 
 @media (max-width: 30em) {
 	textarea.textareafield{
-		width:250px;
-		height: 400px;
+		width:300px;
+		height: 500px;
 	}
 }
 
@@ -77,22 +80,48 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5)
 }
 
 
-.wpuf_post_title_747{
+.wpuf_post_title_747,
+.wpuf_post_title_625{
     width: 800px;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5)
 }
 
 @media (max-width: 70em) {
-	.wpuf_post_title_747{
+	.wpuf_post_title_747,
+	.wpuf_post_title_625{
 		width:350px;
 	}
 }
 
 @media (max-width: 30em) {
-	.wpuf_post_title_747{
+	.wpuf_post_title_747,
+	.wpuf_post_title_625{
 		width:250px;
 	}
 }
+
+input.wpuf-submit-button.wpuf_submit_625,
+input.wpuf-submit-button.wpuf_submit_747,
+a#wpuf-post-draft.btn
+{
+	background-color: #789699;
+	
+}
+
+input.wpuf-submit-button.wpuf_submit_625:hover{
+	background-color: #E27C7B;
+}
+input.wpuf-submit-button.wpuf_submit_747:hover{
+	background-color: #E27C7B;	
+}
+a#wpuf-post-draft.btn:hover
+{
+	background-color: #E27C7B;
+	
+}
+
+
+
 
 
 /*posts poème*/
@@ -147,6 +176,8 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5)
 		width: 115px;
 	}
 }
+
+
 
 
 
