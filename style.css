@@ -43,7 +43,15 @@ a.login_button{
 	padding-left:17px;
 	padding-right:17px;
 	color:white;
+	
 }
+a.login_button:hover{
+	background-color: #E27C7B;
+	text-decoration: none;
+	color: white;
+	
+}
+
 
 .hfe-nav-menu__layout-horizontal li.menu-item, .hfe-nav-menu__layout-horizontal > li.menu-item {
   
