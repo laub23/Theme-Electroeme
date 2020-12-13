@@ -186,6 +186,31 @@ a#wpuf-post-draft.btn:hover
 }
 
 
+/* Profil*/
+
+.bsui .embed-responsive .embed-responsive-item, .bsui .embed-responsive iframe, .bsui .embed-responsive embed, .bsui .embed-responsive object, .bsui .embed-responsive video{
+	width: 50%;
+}
+
+img.rounded-circle.shadow.border-width-4.p-0.mt-neg5{
+	width: 100%;
+}
+
+@media (max-width: 70em) {
+	img.rounded-circle.shadow.border-width-4.p-0.mt-neg5{
+		width:20%;
+	}
+}
+@media (max-width: 30em) {
+	img.rounded-circle.shadow.border-width-4.p-0.mt-neg5{
+		width: 50%;
+	}
+}
+
+.card-img-overlay.p-1.bg-shadow-bottom-dd>a>.fas.fa-camera.fa-fw{
+	visibility: hidden;
+}
+
 
 
 
