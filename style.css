@@ -174,16 +174,6 @@ a#wpuf-post-draft.btn:hover
 	}
 }
 
-#author-meta>.author>.barre{
-	background-color: #E27C7B;
-	height: 5px;
-	width: 150px;
-}
-@media (max-width: 30em) {
-	#author-meta>.author>.barre{
-		width: 115px;
-	}
-}
 
 
 /* Profil*/
@@ -203,12 +193,40 @@ img.rounded-circle.shadow.border-width-4.p-0.mt-neg5{
 }
 @media (max-width: 30em) {
 	img.rounded-circle.shadow.border-width-4.p-0.mt-neg5{
-		width: 50%;
+		width: 40%;
 	}
 }
 
-.card-img-overlay.p-1.bg-shadow-bottom-dd>a>.fas.fa-camera.fa-fw{
-	visibility: hidden;
+img.card-img-top{
+	height: 370px;
+	
+}
+@media (max-width: 70em) {
+	img.card-img-top{
+		height: 220px;
+		
+	}
+}
+@media (max-width: 30em) {
+	img.card-img-top{
+		height: 120px;
+		
+	}
+}
+
+/*poème des utilisateurs*/
+
+.nv-content-wrap>p{
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+	border-radius: 24px 24px 24px 24px;
+	padding: 25px;
+}
+
+h1.title{
+font-family:"Raleway", sans-serif;
+color: #5F8286;
+
+
 }
 
 
