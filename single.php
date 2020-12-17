@@ -24,7 +24,7 @@ if( $image ) {
 } ?>
 
 			<div class="author"><?php the_field("poete"); ?>
-			<div class="barre"></div></div>
+			</div>
 </div>
 
 </div>
@@ -42,9 +42,9 @@ if( $image ) {
 					get_template_part( 'template-parts/content', 'none' );
 				}
 				do_action( 'neve_after_post_content' );
-				?>
 				
-				<?php wpfp_link() ?>
+				?>
+		
 				
 			</article>
 
