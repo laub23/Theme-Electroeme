@@ -28,8 +28,10 @@ if( $image ) {
 </div>
 
 </div>
+<a href="javascript:history.go(-1)"><i class="fas fa-arrow-left"></i></a>
 
 			<article id="post-<?php echo esc_attr( get_the_ID() ); ?>"
+			
 					class="<?php echo esc_attr( join( ' ', get_post_class( 'nv-single-post-wrap col' ) ) ); ?>">
 				<?php
 				do_action( 'neve_before_post_content' );
