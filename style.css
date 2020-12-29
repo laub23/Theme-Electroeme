@@ -378,6 +378,18 @@ h2.comments-title{
 }
 
 
+/*Forum*/
+
+.nv-single-page-wrap>.nv-content-wrap.entry-content{
+
+	box-shadow: none;	
+border-radius: none;
+padding: none;
+
+}
+
+
+
 
 
 
