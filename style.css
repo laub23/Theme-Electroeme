@@ -42,6 +42,12 @@ padding: none;
 
 }
 
+
+.ctdb-content-wrap>.wpfp-span{
+	visibility: hidden;
+
+}
+
 /*header bouton de déconnexion*/
 a.login_button{
 	background-color:#789699;
