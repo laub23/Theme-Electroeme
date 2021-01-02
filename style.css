@@ -48,6 +48,10 @@ padding: none;
 
 }
 
+._2tga._8j9v{
+	visibility: hidden;
+}
+
 /*header bouton de déconnexion*/
 a.login_button{
 	background-color:#789699;
